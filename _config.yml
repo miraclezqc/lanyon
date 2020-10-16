@@ -3,7 +3,7 @@ title:               miracle's blog
 tagline:             'blog'
 description:         ' <a href="https://so.gushiwen.cn/shiwenv_330cfc1476ad.aspx" target="_blank">人生如逆旅,我亦是行人。</a>'
 url:                 https://miraclezqc.github.io/
-baseurl:             'https://miraclezqc.github.io'
+#baseurl:             'https://miraclezqc.github.io'
 #paginate:            5
 #permalink:           pretty
 
