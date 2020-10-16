@@ -1,0 +1,10 @@
+# main links links
+main:
+  - title: "Publications"
+    url: /publications/
+
+  - title: "Mess"
+    url: /Mess/
+
+  - title: "Blog Posts"
+    url: /blogs/

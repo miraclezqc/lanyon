@@ -1,22 +1,132 @@
 # Setup
-title:               Lanyon
-tagline:             'A Jekyll theme'
-description:         'A reserved <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+title:               miracle's blog
+tagline:             'blog'
+description:         ' <a href="https://so.gushiwen.cn/shiwenv_330cfc1476ad.aspx" target="_blank">人生如逆旅,我亦是行人。</a>'
 url:                 https://miraclezqc.github.io/
-baseurl:             'https://miraclezqc.github.io/'
-paginate:            5
-permalink:           pretty
+baseurl:             ''
+#paginate:            5
+#permalink:           pretty
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name             : miracle
+  email            : dysania@pku.edu.cn
+  avatar           : "profile-meow.jpg"
+  bio              : "A master student in Peking University"
+  location         : "Beijing, China"
+  employer         :
+  googlescholar    :
+  email            :
+  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  uri              :
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : "miraclezqc"
+  google_plus      :
+  keybase          :
+  instagram        :
+  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  lastfm           :
+  linkedin         :
+  orcid            : #"http://orcid.org/yourorcidurl"
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  steam            :
+  tumblr           :
+  twitter          :
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
+  wikipedia        :
 
 # Gems
 plugins:
   - jekyll-paginate
 
 # Custom vars
-version:             1.1.0
-google_analytics_id: UA-146052-15
+version:             2.0
+#google_analytics_id: UA-146052-15
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - files
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - config
+  - gulpfile.js
+  - log
+  - node_modules
+  - package.json
+  - tmp
+  - vendor
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: default-old
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+encoding: "utf-8"
+
+# Permalinks
+permalink:           /blogs/:year-:month-:day-:title/
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# feed
+# atom_feed:
+#   path                   : # blank (default) uses feed.xml
+
+# KaTeX
+kramdown:
+  input: GFM
+  auto_ids: true
+  # parse_block_html: true
+  math_engine: mathjax
+  # math_engine: nil # for katex (because kramdown defaults to mathjax)
+
+excerpt_separator: '<!--more-->'
