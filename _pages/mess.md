@@ -12,7 +12,7 @@ author_profile: true
 {% for post in site.posts %}
   {% assign flag = true %}
   {% for tag in post.tags %}
-    {% if tag == "tool" or tag == "system" %}
+    {% if tag == "tool" %}
       {% assign flag = false %}
     {% endif %}
   {% endfor %}
