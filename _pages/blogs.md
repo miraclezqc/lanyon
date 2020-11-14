@@ -10,7 +10,7 @@ author_profile: true
 {% for post in site.posts %}
   {% assign flag = false %}
   {% for tag in post.tags %}
-    {% if tag == "configuration" or tag == "abroad" or tag == "hidden" %}
+    {% if tag == "configuration" or tag == "abroad" or tag == "hidden" or tag == "tool" %}
       {% assign flag = true %}
     {% endif %}
   {% endfor %}
