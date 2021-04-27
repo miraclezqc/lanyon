@@ -1,11 +1,11 @@
 ---
 layout: archive
-title: "Miscellaneous"
-permalink: /Miscellaneous/
+title: "Mess"
+permalink: /mess/
 author_profile: true
 ---
 
-## Mabey introduce some toolkits in this space.
+## Maybe introduce some toolkits in this space.
 
 {% include base_path %}
 {% capture written_year %}'None'{% endcapture %}
