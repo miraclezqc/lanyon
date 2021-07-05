@@ -17,7 +17,7 @@ My research direction cover **parallel computing and computer systems/architectu
 * **Center for Data Science of AAIS**, Peking University, 2019.9 - 2022.6 (expected)
 
 ## Publications
-* Not yet published
+* **Zhu Q, Luo H, Yang C, Ding M. SC21 (Best Paper Finalist, Best Student Paper Finalist);**
 
 ## Awards & Honors
 * **1st/2nd/3rd-Prize Scholarship $\times$ 1**, Sun Yat-sen University, 2016-2019
